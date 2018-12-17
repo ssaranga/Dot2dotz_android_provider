@@ -13,7 +13,7 @@
     <!--Approval status-->
     <string name="approved" translatable="false">Approved</string>
     <string name="banned" translatable="false">Banned</string>
-
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
     <!--True or False -->
     <string name="True" translatable="false">true</string>
     <string name="False" translatable="false">false</string>

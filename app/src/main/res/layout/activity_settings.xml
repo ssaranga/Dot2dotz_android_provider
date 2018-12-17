@@ -184,6 +184,37 @@
             android:layout_marginTop="@dimen/_5sdp"
             android:background="@color/view_grey_bg"
             android:gravity="bottom" />
+        <LinearLayout
+            android:id="@+id/lnrPunjabi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingTop="@dimen/_5sdp">
+
+            <RadioButton
+                android:id="@+id/radioPunjabi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.dot2dotz.provider.Utilities.MyBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="@string/punjabi"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black_text_color"
+                android:textSize="@dimen/_12sdp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/view_grey_bg"
+            android:gravity="bottom" />
 
     </LinearLayout>
 

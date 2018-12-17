@@ -16,6 +16,7 @@
     <string name="upload_doucment">Upload/edit document</string>
     <string name="action_settings">Settings</string>
     <string name="close">Close</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
 
     <!--Activity Begin-->
     <string name="get_moving_with_moovr">Get moving with &appName;</string>

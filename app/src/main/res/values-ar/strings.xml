@@ -44,7 +44,7 @@
     <string name="edit_profile">تحرير الحساب</string>
     <string name="settings">إعدادات</string>
     <string name="email">البريد الإلكتروني</string>
-    <string name="language_update">Updating Language… Please wait</string>
+    <string name="language_update">تحديث اللغة ... يرجى الانتظار</string>
     <string name="english">English</string>
     <string name="referral_code">كود الإحالة</string>
     <string name="language">غير اللغة</string>
@@ -152,6 +152,7 @@
     <string name="wallet">محفظة نقود</string>
     <string name="welcome_back">مرحبا بك مرة أخرى، سجل الدخول للمتابعة</string>
     <string name="ok">حسنا</string>
+    <string name="punjabi">ਪੰਜਾਬੀ</string>
     <string name="password_change_please_login">تم تغيير كلمة السر الخاصة بك. الرجاء تسجيل الدخول للمتابعة</string>
     <string name="phone_validation">الرجاء إدخال رقم الهاتف المكوّن من 10 أرقام</string>
     <!--<string name="whats_your_mail_address">ما هو عنوان بريدك الالكترونى؟</string>-->

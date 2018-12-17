@@ -38,8 +38,8 @@ import retrofit2.Callback;
 
 public class ActivitySettings extends AppCompatActivity {
 
-    private RadioButton radioEnglish, radioHindi,radioArabic,radioUrdu;
-    private LinearLayout lnrEnglish, lnrHindi,lnrArabic,lnrUrdu;
+    private RadioButton radioEnglish, radioHindi,radioArabic,radioUrdu, radioPunjabi;
+    private LinearLayout lnrEnglish, lnrHindi,lnrArabic,lnrUrdu, lnrPunjabi;
     private int UPDATE_HOME_WORK = 1;
     private ApiInterface mApiInterface;
     private CustomDialog customDialog, customDialogNew;
@@ -61,12 +61,14 @@ public class ActivitySettings extends AppCompatActivity {
         radioHindi = (RadioButton) findViewById(R.id.radioHindi);
         radioArabic = (RadioButton) findViewById(R.id.radioArabic);
         radioUrdu = (RadioButton) findViewById(R.id.radioUrdu);
+        radioPunjabi = (RadioButton) findViewById(R.id.radioPunjabi);
 
 
 
         lnrEnglish = (LinearLayout) findViewById(R.id.lnrEnglish);
         lnrHindi = (LinearLayout) findViewById(R.id.lnrHindi);
         lnrUrdu = (LinearLayout) findViewById(R.id.lnrUrdu);
+        lnrPunjabi = (LinearLayout) findViewById(R.id.lnrPunjabi);
 
 
 
@@ -97,6 +99,10 @@ public class ActivitySettings extends AppCompatActivity {
         {
             radioUrdu.setChecked(true);
         }
+        else if(SharedHelper.getKey(ActivitySettings.this, "language").equalsIgnoreCase("pa"))
+        {
+            radioPunjabi.setChecked(true);
+        }
         else {
             radioEnglish.setChecked(true);
         }
@@ -108,6 +114,7 @@ public class ActivitySettings extends AppCompatActivity {
                 radioHindi.setChecked(false);
                 radioArabic.setChecked(false);
                 radioUrdu.setChecked(false);
+                radioPunjabi.setChecked(false);
             }
         });
 
@@ -118,6 +125,7 @@ public class ActivitySettings extends AppCompatActivity {
                 radioArabic.setChecked(false);
                 radioHindi.setChecked(true);
                 radioUrdu.setChecked(false);
+                radioPunjabi.setChecked(false);
             }
         });
 
@@ -129,6 +137,7 @@ public class ActivitySettings extends AppCompatActivity {
                 radioArabic.setChecked(true);
                 radioHindi.setChecked(false);
                 radioUrdu.setChecked(false);
+                radioPunjabi.setChecked(false);
             }
         });
 
@@ -140,9 +149,21 @@ public class ActivitySettings extends AppCompatActivity {
                 radioUrdu.setChecked(true);
                 radioArabic.setChecked(false);
                 radioHindi.setChecked(false);
+                radioPunjabi.setChecked(false);
             }
         });
 
+        lnrPunjabi.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view) {
+                radioEnglish.setChecked(false);
+                radioUrdu.setChecked(false);
+                radioArabic.setChecked(false);
+                radioHindi.setChecked(false);
+                radioPunjabi.setChecked(true);
+            }
+        });
 
 
 
@@ -154,6 +175,7 @@ public class ActivitySettings extends AppCompatActivity {
                     radioHindi.setChecked(false);
                     radioArabic.setChecked(false);
                     radioEnglish.setChecked(true);
+                    radioPunjabi.setChecked(false);
                     SharedHelper.putKey(ActivitySettings.this, "language", "en");
 
                     setLanguage();
@@ -173,6 +195,8 @@ public class ActivitySettings extends AppCompatActivity {
                     radioArabic.setChecked(false);
                     radioEnglish.setChecked(false);
                     radioUrdu.setChecked(false);
+
+                    radioPunjabi.setChecked(false);
                     SharedHelper.putKey(ActivitySettings.this, "language", "hi");
 
                     setLanguage();
@@ -192,6 +216,8 @@ public class ActivitySettings extends AppCompatActivity {
                     radioHindi.setChecked(false);
                     radioArabic.setChecked(true);
                     radioUrdu.setChecked(false);
+
+                    radioPunjabi.setChecked(false);
                     SharedHelper.putKey(ActivitySettings.this, "language", "ar");
                     setLanguage();
                     GoToMainActivity();
@@ -211,7 +237,29 @@ public class ActivitySettings extends AppCompatActivity {
                     radioHindi.setChecked(false);
                     radioArabic.setChecked(false);
                     radioUrdu.setChecked(true);
+
+                    radioPunjabi.setChecked(false);
                     SharedHelper.putKey(ActivitySettings.this, "language", "ur");
+                    setLanguage();
+                    GoToMainActivity();
+                }
+            }
+        });
+
+        radioPunjabi.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener()
+        {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked)
+            {
+                if (isChecked)
+                {
+                    radioEnglish.setChecked(false);
+                    radioHindi.setChecked(false);
+                    radioArabic.setChecked(false);
+                    radioUrdu.setChecked(false);
+
+                    radioPunjabi.setChecked(true);
+                    SharedHelper.putKey(ActivitySettings.this, "language", "pa");
                     setLanguage();
                     GoToMainActivity();
                 }
