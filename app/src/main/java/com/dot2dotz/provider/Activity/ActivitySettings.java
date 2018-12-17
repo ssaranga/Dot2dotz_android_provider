@@ -52,6 +52,7 @@ public class ActivitySettings extends AppCompatActivity {
         setContentView(R.layout.activity_settings);
         Utilities.setLanguage(ActivitySettings.this);
         init();
+        //
     }
 
     private void init() {
