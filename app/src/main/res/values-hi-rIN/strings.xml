@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dot2dotz Driver</string>
+
+    <!--Google map-->
+    <string name="google_map_api" translatable="false">AIzaSyCD30UnQoiw9FinROXL7GOGaLxbJ20LBKY</string>
+    <!-- Facebook ID and Account Kit ID  -->
+    <string name="facebook_app_id" translatable="false">1818275234869999</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">2834e988c4f6557f31fe427f9e87a283</string>
+
+    <!--navigation_drawer-->
+    <string name="navigation_drawer_open">खुला नेविगेशन ड्रॉवर</string>
+    <string name="navigation_drawer_close">बंद नेविगेशन ड्रॉवर</string>
+    <string name="waitingForApproval">हमारे खाते द्वारा हमारे खाते द्वारा सत्यापित होने की प्रतीक्षा कर रहा है।</string>
+    <string name="upload_doucment">दस्तावेज़ अपलोड / संपादित करें</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="close">बंद करे</string>
+
+    <!--Activity Begin-->
+    <string name="get_moving_with_moovr">ऐपनाम के साथ आगे बढ़ें</string>
+    <string name="enter_your_mail_id">अपना मेल आईडी दर्ज करें</string>
+    <string name="or_connect_with_social_media">या सामाजिक से जुड़ें</string>
+    <string name="edit_document_photo">दस्तावेज़ फोटो संपादित करें</string>
+
+    <!--Activity Email -->
+    <!-- <string name="whats_your_mail_address">आपका ईमेल पता क्या है?</string>-->
+    <string name="whats_your_phone_number">आपका मोबाइल नंबर क्या है?</string>
+    <string name="sample_mail_id">नाम@example.com</string>
+
+    <!--Activity Password -->
+    <string name="welcome_back">वापस स्वागत है, जारी रखने के लिए साइन इन करें</string>
+    <string name="enter_your_password">अपना पासवर्ड डालें</string>
+    <string name="i_forgot_my_password">मैं अपना पासवर्ड भूल गया</string>
+    <string name="i_need_to_create_an_account">मुझे एक खाता बनाना है</string>
+
+    <!--Activity Register-->
+    <string name="email">ईमेल </string>
+    <string name="name">नाम</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+    <string name="password">पासवर्ड</string>
+    <string name="first_name">पहला नाम</string>
+    <string name="last_name">अंतिम नाम</string>
+    <string name="commision">सेवा शुल्क</string>
+    <string name="mobile_no" translatable="false">9876543210</string>
+    <string name="time_taken">लिया गया समय</string>
+    <string name="extra_price">अतिरिक्त</string>
+    <string name="password_txt" translatable="false">******</string>
+    <string name="mobile_number_validation">मोबाइल नंबर में 10 से 20 अंकों के बीच संख्या होनी चाहिए</string>
+    <string name="sample_base_price" translatable="false">0</string>
+    <string name="sample_distance" translatable="false">1 mi</string>
+    <string name="sample_time_travel" translatable="false">1 hr</string>
+    <string name="enter_your_details">पंजीकरण के लिए अपना विवरण दर्ज करें</string>
+    <string name="ok">ओके</string>
+    <string name="password_change_please_login">आपका पासवर्ड बदल दिया गया है। जारी रखने के लिए कृपया लॉग इन करें</string>
+    <string name="phone_validation">कृपया 10 अंकों का मोबाइल नंबर दर्ज करें</string>
+    <string name="sharing_text">यात्रा विवरण</string>
+    <string name="screenshot_take_failed">स्क्रीनशॉट लेने में विफल!!</string>
+
+    <!-- Activity ForgetPassword -->
+    <!--<string name="recover_password">वसूली के लिए अपनी मेल आईडी दर्ज करें</string>-->
+    <string name="recover_password">वसूली के लिए अपना फोन नंबर दर्ज करेंं</string>
+
+    <!-- Edit Activity-->
+    <string name="edit_profile">खाता संपादित करें</string>
+    <string name="change_password">पासवर्ड बदलना चाहते हैं?</string>
+    <string name="save">सेव </string>
+    <string name="update_success">प्रोफ़ाइल अपडेट।</string>
+
+    <!--Show Dailog-->
+    <string name="connect_to_network">नेटवर्क से कनेक्ट करें या छोड़ें</string>
+    <string name="connect_to_wifi">वाईफ़ाई से कनेक्ट करें</string>
+    <string name="quit">छोड़ना</string>
+    <string name="cancel_ride">रद्द करें और सवारी करें</string>
+    <string name="view_receipt">रसीद देखें</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="cencel_request">क्या आप वाकई रद्द करना चाहते हैं और सवारी करना चाहते हैं ??</string>
+    <string name="exit_confirm">क्या आप लॉग आउट करना चाहते हैं?</string>
+    <string name="select_service">सेवा का चयन करें</string>
+    <string name="signin_or">(या)</string>
+
+    <!-- Error Messages-->
+    <string name="something_went_wrong">कुछ गलत हो गया.</string>
+    <string name="fb_cancel">फेसबुक लॉगिन रद्द कर दिया गया</string>
+    <string name="fb_error">फेसबुक लॉगिन विफल</string>
+    <string name="google_login">Google लॉगिन विफल रहा</string>
+    <string name="social_cancel">सामाजिक लॉगिन रद्द कर दिया गया</string>
+    <string name="registration_failed">पंजीकरण रद्द कर दिया गया</string>
+    <string name="something_went_wrong_net">कुछ गड़बड़ हुई, कृपया इंटरनेट कनेक्शन की जांच करें.</string>
+    <string name="oops_connect_your_internet"> ओह! अपने इंटरनेट से कनेक्ट करें। </string>
+    <string name="server_down">सर्वर तक पहुंचने में असमर्थ</string>
+    <string name="please_try_again">कृपया पुन: प्रयास करें।</string>
+    <string name="email_validation">अपना ईमेल आईडी दर्ज करें।</string>
+    <string name="not_valid_email">वैध ईमेल आईडी नहीं है। </string>
+    <string name="password_validation">पासवर्ड खाली नहीं छोड़ा जा सका। </string>
+    <string name="first_name_empty">पहला नाम आवश्यक है।</string>
+    <string name="last_name_empty"> अंतिम नाम आवश्यक है।</string>
+    <string name="mobile_number_empty">मोबाइल नंबर आवश्यक है। </string>
+    <string name="request_reject">अनुरोध सफलतापूर्वक खारिज कर दिया </string>
+    <string name="request_accept">अनुरोध सफलतापूर्वक स्वीकार किया गया</string>
+    <string name="request_cancel">आपने अनुरोध रद्द कर दिया है</string>
+    <string name="no_routes_available">कोई रास्ता नहीं है</string>
+    <string name="write_your_comment">अपनी टिप्पणियां लिखें</string>
+
+    <!--Approval status-->
+    <string name="approved" translatable="false">स्वीकृत</string>
+    <string name="banned" translatable="false">प्रतिबंधित</string>
+    <string name="waiting_for_approval">अनुमोदन के लिए प्रतीक्षाl</string>
+
+    <!--Wallet Fragment-->
+    <string name="your_wallet_amount">आपका वॉलेट राशि है</string>
+    <string name="sample_amount" translatable="false">1450</string>
+
+    <!--Offline Activity -->
+    <string name="go_online">ऑनलाइन जाओ</string>
+    <string name="go_offline">ऑफ़ लाइन हो जाओ</string>
+
+    <!--Invalid Username and Password-->
+    <string name="invalid_credentials">अमान्य उपयोगकर्ता नाम और पासवर्ड।</string>
+
+    <!--True or False -->
+    <string name="True" translatable="false">सच</string>
+    <string name="False" translatable="false">असत्य</string>
+
+    <!--Your Trips-->
+    <string name="history">इतिहास</string>
+    <string name="comments">टिप्पणियाँ</string>
+    <string name="no_trips">कोई यात्रा उपलब्ध नहीं है। </string>
+    <string name="no_upcoming_trips">कोई आगामी यात्रा उपलब्ध नहीं है। </string>
+    <string name="no_rides"> सवारी नहीं ; पूरा कर लिया है।</string>
+    <string name="upcoming">आगामी</string>
+    <string name="past">अतीत</string>
+    <string name="payment_methods">भुगतान की विधि</string>
+    <string name="payment_methods_past">भुगतान का तरीका</string>
+    <string name="sample_name">विल स्मिथ</string>
+
+    <!--Flow status -->
+    <string name="tap_when_arrived">पहुंच गए</string>
+    <string name="tap_when_pickedup">उठाया</string>
+    <string name="tap_when_dropped">टैप जब ड्रॉप्ड</string>
+    <string name="tap_when_paid">भुगतान की पुष्टि करें</string>
+    <string name="rate_user">जमा करें</string>
+    <string name="rate_your_trip">अपनी डिलीवरी के साथ रेट करें</string>
+    <string name="referral_code">रेफरल कोड</string>
+
+    <!--Change Password-->
+    <string name="change_password_title">पासवर्ड बदलें</string>
+    <string name="current_password">वर्तमान पासवर्ड</string>
+    <string name="new_password">नया पासवर्ड</string>
+    <string name="confirm_password">नए पासवर्ड की पुष्टि करें</string>
+    <string name="please_enter_current_pass">कृपया वर्तमान पासवर्ड दर्ज करें.</string>
+    <string name="please_enter_new_pass">कृपया नया पासवर्ड दर्ज करें। </string>
+    <string name="please_enter_confirm_pass">कृपया पुष्टि पासवर्ड दर्ज करें।</string>
+    <string name="different_passwords">पासवर्ड मेल नहीं खाता है।</string>
+
+    <!--Side Navigation Menu -->
+    <string name="home">होम</string>
+    <string name="your_trips">आपकी डिलीवरीज</string>
+    <string name="wallet">वॉलेट </string>
+    <string name="help">मदद</string>
+    <string name="earnings">कमाई</string>
+    <string name="share">शेयर </string>
+    <string name="logout">लॉग आउट</string>
+    <string name="valid_image">कोई छवि नहीं मिली </string>
+    <string name="user_no_mobile">उपयोगकर्ता के पास वैध मोबाइल नंबर नहीं है।</string>
+    <string name="incorrect_otp">गलत OTP</string>
+    <string name="otp_validation">OTP की आवश्यकता है</string>
+    <string name="confirm_password_validation">पासवर्ड का मेल नहीं हुआ</string>
+    <string name="confirm_validation">पुष्टि करें कि पासवर्ड 6 से अधिक होना चाहिए</string>
+    <string name="new_validation">नया पासवर्ड 6 से बड़ा होना चाहिए </string>
+    <string name="note">नोट: कृपया अपने पंजीकृत ईमेल पते पर ओटीपी भेजें दर्ज करें</string>
+    <string name="secrete_code">OTP दर्ज करें</string>
+    <string name="reset_password">पासवर्ड रीसेट</string>
+    <string name="request_time_out">ब्रेक का अनुरोध</string>
+    <string name="cancel_confirm">क्या आप वाकई रद्द करना चाहते हैं और सवारी करना चाहते हैं ?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="connect_with_social_media">सामाजिक से जुड़ें</string>
+    <string name="service">सर्विस;</string>
+    <string name="no_services">कोई सेवा असाइन नहीं की गई</string>
+    <string name="choose_acc">एक खाता चुनें</string>
+    <string name="facebook_name" translatable="false">फेसबुक</string>
+    <string name="google_name" translatable="false">Google</string>
+    <string name="commission">सर्विस चार्ज</string>
+    <string name="no_comments">कोई टिप्पणी उपलब्ध नहीं है</string>
+    <string name="base_price">बुनियादी किराया</string>
+    <string name="distance_price">दूरी किराया</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="services_requested">सर्विस का अनुरोध किया</string>
+    <string name="sos_confirm">क्या आप निश्चित रूप से आपातकालीन कॉल के साथ आगे बढ़ना चाहते हैं?</string>
+    <string name="choose_type">	प्रकार चुनें</string>
+    <string name="invoice">चालान- </string>
+    <string name="invoice_alone">चालान</string>
+    <string name="pick_up">उठाने की जगह </string>
+    <string name="drop_at">ड्रॉप स्थान </string>
+    <string name="reason_to_cancel">रद्द करने का कारण</string>
+    <string name="booking_id_colon">बुकिंग आईडी : </string>
+    <string name="booking_id">बुकिंग आईडी</string>
+    <string name="source_location">स्रोत स्थान</string>
+    <string name="reason">कारण</string>
+    <string name="submit">जमा करें</string>
+    <string name="summary">सारांश</string>
+    <string name="manage_document">दस्तावेज़ प्रबंधित करें</string>
+    <string name="total_rides">रीडेस्कॉप की कुल संख्या</string>
+    <string name="revenue">राजस्व</string>
+    <string name="schedule_rides">अनुसूचियों की संख्या</string><!--  &Ridescap ;-->
+    <string name="canceled_rides">रद्द और रीडेस्कॉप</string>
+    <string name="rides">वितरण</string>
+    <string name="upcoming_rides">आने वाली और सवारी</string>
+    <string name="help_msg">हमारी टीम व्यक्ति जल्द ही आपसे संपर्क करेंगे !</string>
+    <string name="no_address">कोई पता उपलब्ध नहीं है</string>
+    <string name="email_exist">ईमेल पहले ही ली जा चुकी है</string>
+    <string name="first_name_no_number">पहला नाम संख्या स्वीकार नहीं करता है</string>
+    <string name="last_name_no_number">अंतिम नाम संख्या स्वीकार नहीं करते हैं</string>
+    <string name="password_size">पासवर्ड का आकार कम से कम 6 होना चाहिए</string>
+    <string name="sorry_for_inconvinent">असुविधाजनक के लिए खेद है, हमारे सहायक अभी व्यस्त हैं</string>
+    <string name="loading">लोड हो रहा है&#8230;</string>
+    <string name="sample_earnings" translatable="false">0/0</string>
+    <string name="target_completed">लक्ष्य पूरा</string>
+    <string name="total_earnings">कुल कमाई</string>
+    <string name="time">समय</string>
+    <string name="distance">दूरी</string>
+    <string name="amount">राशि</string>
+    <string name="drop_address">ड्रॉप पता</string>
+    <string name="where_to">जहां?</string>
+    <string name="user">उपयोगकर्ता</string>
+    <string name="sample_date_time" translatable="false">30 वें सितंबर 2017 को 8:30 बजे</string>
+    <string name="sample">संख्या 10, प्रतिष्ठा पैलेडियम बन, सड़क चिल्लाती है, हजारों रोशनी चेन्नई</string>
+    <string name="call">कॉल</string>
+    <string name="distance_travelled">यात्रा की दूरी</string>
+    <string name="sample_amt" translatable="false">0</string>
+    <string name="tax">कर</string>
+    <string name="discount">छूट</string>
+    <string name="total">संपूर्ण</string>
+    <string name="amount_to_be_paid">जितनी राशि अदा की जानी है</string>
+    <string name="rate_your_trips">अपनी डिलीवरी रेट करें</string>
+    <string name="server">सर्वर अस्थायी रूप से अनुपलब्ध है। कृपया बाद में जांचें.</string>
+    <string name="timer_start">1</string>
+    <string name="schedule">अनुसूची</string>
+    <string name="accept">स्वीकार करना</string>
+    <string name="reject">अस्वीकार</string>
+    <string name="upcoming_trips">आने वाली डिलीवरीज</string>
+    <string name="past_trips">पिछली डिलीवरीज</string>
+    <string name="battery">आपकी बैटरी कम है, कृपया अपने मोबाइल चार्ज करें!</string>
+    <string name="new_version_available">नया संस्करण उपलब्ध है</string>
+    <string name="update_to_continue">कृपया, नए संस्करण में ऐप अपडेट करें।</string>
+    <string name="update">अपडेट करें</string>
+    <string name="no_thanks">जी नहीं, धन्यवाद</string>
+    <string name="help_title">और appNameCaps; मदद</string>
+    <string name="new_password_validation">नया पासवर्ड पुराने पासवर्ड के समान नहीं होना चाहिए।</string>
+    <string name="password_validation1">पासवर्ड में न्यूनतम 6 वर्ण, अधिकतम 16 वर्ण होने चाहिए</string>
+    <string name="password_validation2">पासवर्ड में कम से कम 1 अपरकेस, 1 लोअरकेस, 1 नंबर और 1 विशेष कैरेक्टर होना चाहिए</string>
+    <string name="today_completed">आज पूरा लक्ष्य</string>
+
+    <string name="sign_in">दाखिल करना</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="fresh">स्वागत हे</string>
+    <string name="search">चलाना</string>
+    <string name="bookmark">ई ए आर एन</string>
+
+    <string name="fresh_description">परिचय और ऐपनाम; ऐपनाम से वितरण करने के लिए सेवाएं; ऐप उपयोगकर्ता</string>
+    <string name="search_description">अपने मालिक बनें, अपना खुद का कार्यक्रम निर्धारित करें। एक ही स्थान पर नवीनतम ड्राइविंग सुविधाओं को प्राप्त करें.</string>
+    <string name="bookmark_description">अजनबियों को उन जगहों पर जाने में मदद करने के लिए अच्छी तरह से भुगतान करें जहां उन्हें जाना है। हर हफ्ते / मासिक में अपनी कमाई वापस ले लें।</string>
+    <string name="version">संस्करण</string>
+    <string name="user_busy">आपका और सवारी; उपयोगकर्ता द्वारा रद्द कर दिया गया था। समर्थन के लिए कृपया हमसे संपर्क करें</string>
+
+    <string name="do_not_have_account">खाता नहीं है?</string>
+    <string name="sign_up">साइन अप करें</string>
+    <string name="here">यहाँ</string>
+    <string name="note_txt">ध्यान दें</string>
+    <string name="license_num">लाइसेंस संख्या</string>
+    <string name="car_Details" translatable="false">वाहन की सूचना</string>
+    <string name="car_mod" translatable="false">कार के मॉडल</string>
+    <string name="car_num" translatable="false">कार का नबंर</string>
+    <string name="bank_Details" translatable="false">बैंक विवरण</string>
+    <string name="bank_name" translatable="false">बैंक का नाम</string>
+    <string name="sort_code" translatable="false">क्रमबद्ध कोड</string>
+    <string name="account_number" translatable="false">खाता संख्या</string>
+    <string name="vehicle_doc_photo" translatable="false">वाहन दस्तावेज़ फोटो</string>
+    <string name="vehicle_doc_details" translatable="false">वाहन दस्तावेज़ विवरण</string>
+    <string name="view" translatable="false">देखना</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="arabic">لغة</string>
+    <string name="language_update">भाषा अपडेट कर रहा है ... कृपया प्रतीक्षा करें</string>
+    <string name="english">English</string>
+    <string name="language">भाषा बदलना </string>
+    <string name="hindi">हिंदी</string>
+    <string name="please_wait">कृपया प्रतीक्षा करें...</string>
+    <string name="documents" translatable="false">दस्तावेज़</string>
+    <string name="upload_your_img" translatable="false">अपनी छवि अपलोड करें</string>
+    <string name="track_oredr" translatable="false">ऑर्डर पर नज़र रखेंr</string>
+    <string name="source" translatable="false">स्रोत स्थान</string>
+    <string name="order" translatable="false">ऑर्डर </string>
+    <string name="delivery_address" translatable="false">वितरण का पता</string>
+    <string name="tap_start" translatable="false">शरू करने के लिए टैप करें</string>
+    <string name="no_of_trips">वितरण के लिए कोई नहीं :</string>
+    <string name="trip">यात्रा</string>
+    <string name="upload_empty">सभी दस्तावेज आवश्यक है</string>
+    <string name="otp_verification" translatable="false">कृपया अपनी डिलिवरी शुरू करने के लिए OTP दर्ज करें</string>
+    <string name="give_your_feedback">कृपया रद्दीकरण के लिए कारण का चयन करें</string>
+    <string name="approximate">अनुमानित किराया</string>
+    <string name="waiting_fare">प्रतीक्षा शुल्क</string>
+    <string name="urdu">اردو</string>
+
+
+
+
+</resources>

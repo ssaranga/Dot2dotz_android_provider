@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_14sdp"
+    android:elevation="@dimen/_5sdp"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+       >
+
+        <RelativeLayout
+            android:padding="@dimen/_8sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.dot2dotz.provider.Utilities.MyBoldTextView
+                android:textSize="@dimen/_14sdp"
+                android:id="@+id/order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/order"
+                android:textColor="@color/colorAccent" />
+
+            <ImageView
+                android:id="@+id/navigation"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:src="@drawable/navigation" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_8sdp">
+
+            <com.dot2dotz.provider.Utilities.MyBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delivery_address"
+                android:textColor="@color/black_text_color" />
+
+            <com.dot2dotz.provider.Utilities.MyTextView
+                android:id="@+id/delivery_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample" />
+
+            <com.dot2dotz.provider.Utilities.MyBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/comments"
+                android:textColor="@color/black_text_color" />
+
+            <com.dot2dotz.provider.Utilities.MyTextView
+                android:id="@+id/comments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_name" />
+
+        </LinearLayout>
+
+        <com.dot2dotz.provider.Utilities.MyButton
+            android:id="@+id/status_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/colorAccent"
+            android:text="@string/tap_start"
+            android:textColor="@color/text_color_white" />
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
