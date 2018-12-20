@@ -291,6 +291,7 @@
     <string name="tap_start" translatable="false">Tap To Start</string>
     <string name="otp_verification" translatable="false">Kindly enter the OTP to start your Delivery</string>
     <string name="urdu">اردو</string>
+    <string name="Updating_vehicle_types">Updating vehicle types</string>
 
 
 </resources>

@@ -296,6 +296,7 @@
     <string name="source" translatable="false">ਸਰੋਤ ਦਾ ਸਥਾਨ</string>
     <string name="order" translatable="false">ਆਰਡਰ</string>
     <string name="delivery_address" translatable="false">" ਡਿਲੀਵਰੀ ਦਾ ਪਤਾ"</string>
+    <string name="Updating_vehicle_types">Updating vehicle types</string>
 
 
 </resources>

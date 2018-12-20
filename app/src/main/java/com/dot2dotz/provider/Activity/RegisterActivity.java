@@ -1121,13 +1121,6 @@ public class RegisterActivity extends AppCompatActivity implements
     }
 
 
-    public void goToImageIntent() {
-        isPermissionGivenAlready = true;
-        Intent intent = new Intent();
-        intent.setType("image/*");
-        intent.setAction(Intent.ACTION_GET_CONTENT);
-        startActivityForResult(Intent.createChooser(intent, "Select Picture"), SELECT_PHOTO);
-    }
 
     private void getServiceTypes() {
         try {
@@ -1140,9 +1133,10 @@ public class RegisterActivity extends AppCompatActivity implements
                             // do stuff with the result or error
 
 
-                            if (result == null) {
-                                Toast.makeText(RegisterActivity.this, getResources().getString(R.string.please_try_again), Toast.LENGTH_LONG).show();
+                            if (result == null ) {
+                                //Toast.makeText(RegisterActivity.this, getResources().getString(R.string.Updating_vehicle_types), Toast.LENGTH_LONG).show();
                                 //  finish();
+                                getServiceTypes();
                                 return;
                             }
                             try {

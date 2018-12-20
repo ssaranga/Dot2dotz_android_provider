@@ -304,5 +304,6 @@
     <string name="waiting_fare">Waiting Charge</string>
     <string name="edit_document_photo">Edit Document Photo</string>
     <string name="urdu">اردو</string>
+    <string name="Updating_vehicle_types">Updating vehicle types</string>
 
 </resources>
